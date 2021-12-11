@@ -2,7 +2,7 @@ Package: Rcircle_tools
 Type: Package
 Title: Calculation tools Package
 Version: 1.0.0
-Authors@R: person("Jack", "Man", email = "jackch.man@gmail.com")
+Authors@R: person("Jack", "Man", email = "jackch.man@gmail.com", role = c("aut", "cre"))
 Description: The package is aimed to help users calculate the area of a 
     circle with the given radius.
 Depends: R
