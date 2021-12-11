@@ -1,0 +1,29 @@
+---
+title: "Instruction of the installation of package"
+author: "Jack Man"
+date: "12/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This R markdown would give the instruction on how to install the package Rcircle_tools. First of all, the package can be installed via the use of 'devtools'.
+
+```{r}
+library(devtools) # Make sure that the devtools library is loaded
+install_github("jackch-man/CircleArea_pack")
+```
+
+After the installation of the package, the package can now be called by inputting the codes in below:
+
+```{r}
+library(Rcircle_tools)
+```
+
+The use of function is for find the area of a circle by giving out a value of radius.
+
+```{r}
+Cir_area(20)
+```
