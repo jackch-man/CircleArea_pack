@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This R markdown would give the instruction on how to install the package Rcircle_tools. First of all, the package can be installed via the use of 'devtools'.
+This R markdown would give the instruction on how to install the package CircleAreaPack. First of all, the package can be installed via the use of 'devtools'.
 
 ```{r}
 library(devtools) # Make sure that the devtools library is loaded
@@ -19,7 +19,7 @@ install_github("jackch-man/CircleArea_pack")
 After the installation of the package, the package can now be called by inputting the codes in below:
 
 ```{r}
-library(Rcircle_tools)
+library(CircleAreaPack)
 ```
 
 The use of function is for find the area of a circle by giving out a value of radius.
